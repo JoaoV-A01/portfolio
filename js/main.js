@@ -5,17 +5,11 @@ async function carregarDados() {
   const infos = await infoRes.json();
   const projetos = await projetosRes.json();
 
-  const basePath = window.location.hostname.includes("github.io")
+    const basePath = window.location.hostname.includes("github.io")
   ? "./img/PIs/"
   : "../img/PIs/";
 
-  const basePath2 = window.location.hostname.includes("github.io")
-  ? "./img/"
-  : "../img/";
-
-  document.getElementById("foto-perfil").src = infos.foto
-  ? `${basePath2}${infos.foto.split("/").pop()}`
-  : `${basePath2}perfil.jpg`;
+  document.getElementById("foto-perfil").src = infos.foto || "img/perfil.jpg";
   document.getElementById("nome").textContent = infos.nome;
 
   const facul = infos.graduação;
