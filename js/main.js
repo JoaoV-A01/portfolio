@@ -5,7 +5,13 @@ async function carregarDados() {
   const infos = await infoRes.json();
   const projetos = await projetosRes.json();
 
-  document.getElementById("foto-perfil").src = infos.foto || "img/perfil.jpg";
+  const basePath = window.location.hostname.includes("github.io")
+  ? "./img/PIs/"
+  : "../img/PIs/";
+
+  document.getElementById("foto-perfil").src = infos.foto
+  ? `${basePath}${infos.foto.split("/").pop()}`
+  : `${basePath}perfil.jpg`;
   document.getElementById("nome").textContent = infos.nome;
 
   const facul = infos.graduação;
@@ -27,9 +33,6 @@ async function carregarDados() {
   `;
   document.getElementById("experiencias").innerHTML = experiencias;
 
-  const basePath = window.location.hostname.includes("github.io")
-  ? "./img/PIs/"
-  : "../img/PIs/";
   const cardsContainer = document.getElementById("cards-container");
   Object.values(projetos.PIs).forEach((pi, index) => {
   const imgPath = pi.Prints["1"] ? pi.Prints["1"].split("/").pop() : "default.png";
