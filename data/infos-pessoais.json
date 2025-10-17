@@ -1,5 +1,5 @@
 {
-    "foto": "img/JVSFOTO.jpg",
+    "foto": "../img/JVSFOTO.jpg",
     "nome": "João Victor Alexandre da Silva",
     "graduação": {
         "faculdade": "Fatec Itaquera - Prof. Miguel Reale",
