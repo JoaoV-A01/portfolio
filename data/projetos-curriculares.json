@@ -1,0 +1,97 @@
+{
+    "PIs": {
+        "pi1": {
+            "Nome": "Ecovita Academy",
+            "Descrição": "Plataforma de educação ambiental online completa sobre o meio ambiente, oferecendo cursos, materiais interativos e uma comunidade engajada na sustentabilidade.",
+            "Tecnologias": "HTML, CSS, JavaScript, Canvas, Github e VSCode.",
+            "Github": "https://github.com/JoaoV-A01/PI_Ecovita-Academy",
+            "Live": "https://ecocita-academy.lovable.app/",
+            "Prints": {
+                "1": "../img/PIs/ecovita.png",
+                "2": "",
+                "3": ""
+            },
+            "Participação": "Prototipação do site utilizando a ferramena Canvas, estruturação do site em html com ferramenta VSCode e coleta de informações para do site"
+        },
+        "pi2": {
+            "Nome": "ConectaONGs",
+            "Descrição": "Plataforma que conecta ONGs a voluntários e doadores, facilitando o engajamento social e a gestão de projetos comunitários.",
+            "Tecnologias": "HTML, CSS, JavaScript, Open Street Maps, Figma, PHP, JSON, MySQL Workbench, brModelo, Evernote, StarUML, Visual Paradigma, Word Online, Stackedit.io, Github e VSCode",
+            "Github": "https://github.com/https-github-com-fatec-itaquera2sem/conectaongs",
+            "Live": "https://https-github-com-fatec-itaquera2sem.github.io/conectaongs",
+            "Prints": {
+                "1": "../img/PIs/conecta-home.jpg",
+                "2": "../img/PIs/conecta-mapa.jpg",
+                "3": "../img/PIs/conecta-footer.jpg"
+            },
+            "Participação": "Estive presente na criação do MER (Modelo Entidade Relacionamento) e DER (Diagrama de Entidade Relacionamento) do banco de dados, utilizando brModelo. E na estruturação do banco de dados físico, construção de tabelas, functions, triggers e procedures, utilizando MySQL Workbench."
+        },
+        "pi3": {
+            "Nome": "SpringToys",
+            "Descrição": "E-commerce de brinquedos com catálogo completo, sistema de filtros por categoria, marca e valor, e painel administrativo para gestão de produtos.",
+            "Tecnologias": "Java, Spring Boot Framework, PHP, MySQL Workbench, SpringBoot Tool Suite4, HTML, CSS, JavaScript, Figma, Github, brModelo e Lucidchart.",
+            "Github": "https://github.com/nasc2005/SpringToys",
+            "Live": "",
+            "Prints": {
+                "1": "../img/PIs/1-home.png",
+                "2": "../img/PIs/2.1.1-categorias.png",
+                "3": "../img/PIs/2.1.2-brinquedo.png"
+            },
+            "Participação": "Estive presente na criação do MER e DER do banco de dados, utilizando brModelo. Modelei o Diagrama de Classes no Lucidchart. E no back-end, desenvolvendo emails de confirmação do cadastro, atualização e outras informações, criação das classes modelos e querys de pesquisa no repository, utilizando SpringBoot Tool Suite4."
+        },
+        "pi4": {
+            "Nome": "Projeto PAZ",
+            "Descrição": "Sistema de gestão de vendas solidárias para instituições religiosas e comunidades carentes, com controle de estoque, vendedores e relatórios de campanhas.",
+            "Tecnologias": "CSS, JavaScript, React, Figma, PHP, MySQL Workbench, brModelo, Stackedit.io, Github e VSCode.",
+            "Github": "https://github.com/nasc2005/Projeto_Paz",
+            "Live": "",
+            "Prints": {
+                "1": "../img/PIs/Hub.jpg",
+                "2": "../img/PIs/inicio.jpg",
+                "3": "../img/PIs/produtos.jpg"
+            },
+            "Participação": "Estive presente na criação do MER e DER do banco de dados, utilizando brModelo. Modelei o Diagrama de Classes no Lucidchart. Na estruturação do banco de dados físico, construção de tabelas, functions, triggers e procedures, utilizando MySQL Workbench. E no back-end, criando a arquitetura completa usando o padrão MVC, que foi estruturado com camadas adicionais de Repository e Service, utilizando VSCode. Realizei um roteiro de pesquisa para mapear desafios, necessidades e preferências do público-alvo. A criação de um mapa da jornada do usuário nos permitiu antecipar possíveis dificuldades e melhorar a usabilidade da plataforma. Além disso, desenvolvi uma persona detalhada, com um perfil que direciona as decisões de design e funcionalidades da aplicação. E trabalhei na integração do front-end com o back-end, realizando testes completos das operações CRUD para todas as entidades."
+        },
+        "pi5": {
+            "Nome": "Projeto PAZ - App e Web",
+            "Descrição": "Aplicativo mobile para gerenciamento de vendas solidárias com sistema completo de produtos, carrinho e finalização de pedidos com múltiplas formas de pagamento.",
+            "Tecnologias": "CSS, JavaScript, React Native, Expo, Figma, PHP, Token JWT, JSON, Docker, AWS S3, MySQL Workbench, brModelo, Stackedit.io, LucidChart, Word Online, Github e VSCode.",
+            "Github": "https://github.com/SpringDevsFatec/PI_ProjetoPaz",
+            "Live": "https://youtu.be/nCjJSFAlklc?si=IlY_YjCKzoXqdQHO",
+            "Prints": {
+                "1": "../img/PIs/1-inicio.png",
+                "2": "../img/PIs/3-1-produto.png",
+                "3": "../img/PIs/4-2-vendas.png"
+            },
+            "Participação": "Estive presente na criação do MER e DER do banco de dados, utilizando brModelo. Modelei o Diagrama de Classes no Lucidchart. Na estruturação do banco de dados físico, construção de tabelas, functions, triggers e procedures, utilizando MySQL Workbench. E no back-end, criando a arquitetura completa usando o padrão MVC, que foi estruturado com camadas adicionais de Repository e Service de algumas entides, utilizando VSCode."
+        },
+        "pi6": {
+            "Nome": "Projeto PAZ - Kotlin Multiplatforma (Em Andamento)",
+            "Descrição": "-",
+            "Tecnologias": "-",
+            "Github": "https://github.com/SpringDevsFatec/ProjetoPaz_KotlinMultiplatforma",
+            "Live": "",
+            "Prints": {
+                "1": "",
+                "2": "",
+                "3": ""
+            },
+            "Participação": "-"
+        }
+    },
+    "Extras": {
+        "semestre4": {
+            "Nome": "Maratona Plus",
+            "Descrição": "",
+            "Tecnologias": "",
+            "Github": "",
+            "Live": "",
+            "Prints": {
+                "1": "",
+                "2": "",
+                "3": ""
+            },
+            "Participação": ""
+        }
+    }
+}

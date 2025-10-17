@@ -1,0 +1,50 @@
+{
+    "foto": "../img/JVSFOTO.jpg",
+    "nome": "João Victor Alexandre da Silva",
+    "graduação": {
+        "faculdade": "Fatec Itaquera - Prof. Miguel Reale",
+        "curso": "Desenvolvimento de Software Multiplataforma",
+        "datas": "Início: Fev de 2023 - Jul de 2026 (Previsão)"
+    },
+    "trabalhos": {
+        "empresa": "Fatec Itaquera",
+        "datas": "set de 2024 - dez de 2024 - 4 meses",
+        "cargo": "Desenvolvedor Estagiário Full-Stack",
+        "descrição": "Atuei como estagiário em Desenvolvimento de Software na Fatec Itaquera, desenvolvendo soluções para os funcionários responsáveis pela administração do site institucional. Participei da criação de um hub de gerenciamento de conteúdos, permitindo a atualização e organização dinâmica das informações exibidas no site.",
+        "atividades": "<ul>Minhas principais atividades incluíram: <li>Modelagem e implementação de banco de dados;</li> <li>Desenvolvimento do backend seguindo o padrão MVC;</li><li>Criação de microserviços e rotas dinâmicas;</li> <li>Integração entre front-end e back-end;</li>Uso de metodologias ágeis (Kanban no GitHub) e boas práticas de versionamento (Git Flow)."
+    },
+    "cursosOnline": {
+        "curso1": {
+            "nome": "AWS Academy Graduate - Cloud Architecting",
+            "local": "Online",
+            "instituição": "Amazon Web Services (AWS)",
+            "horas": "-",
+            "datas": "set de 2025"
+        },
+        "curso2": {
+            "nome": "Fundamentos do Power BI",
+            "local": "Online",
+            "instituição": "Santander Open Academy",
+            "horas": "8 horas | 2 Módulos | Autoavaliação",
+            "datas": "set de 2025"
+        },
+        "curso3": {
+            "nome": "Introduction to Generative AI",
+            "local": "Online",
+            "instituição": "Google",
+            "horas": "-",
+            "datas": "jun de 2025"
+        },
+        "curso4": {
+            "nome": "Bradesco - Java Cloud Native",
+            "local": "Online",
+            "instituição": "DIO",
+            "horas": "90 horas",
+            "datas": "mai de 2025"
+        }
+    },
+    "idiomas": {
+        "idioma1": "Português - Nativo",
+        "idioma2": " Inglês - Intermediário"
+    }
+}
