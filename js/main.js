@@ -9,9 +9,13 @@ async function carregarDados() {
   ? "./img/PIs/"
   : "../img/PIs/";
 
+  const basePath2 = window.location.hostname.includes("github.io")
+  ? "./img/"
+  : "../img/";
+
   document.getElementById("foto-perfil").src = infos.foto
-  ? `${basePath}${infos.foto.split("/").pop()}`
-  : `${basePath}perfil.jpg`;
+  ? `${basePath2}${infos.foto.split("/").pop()}`
+  : `${basePath2}perfil.jpg`;
   document.getElementById("nome").textContent = infos.nome;
 
   const facul = infos.graduação;

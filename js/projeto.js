@@ -15,6 +15,15 @@ async function carregarProjeto() {
   const container = document.getElementById("projeto-detalhe");
   const prints = Object.values(projeto.Prints).filter(src => src);
 
+  const basePath = window.location.hostname.includes("github.io")
+    ? "./img/PIs/"
+    : "../img/PIs/";
+
+  const adjustedPrints = prints.map(src => {
+    const fileName = src.split("/").pop();
+    return `${basePath}${fileName}`;
+  });
+
   container.innerHTML = `
     <h1>${projeto.Nome}</h1>
     <p>${projeto.Descrição}</p>
@@ -23,15 +32,15 @@ async function carregarProjeto() {
     <p><a href="${projeto.Github}" target="_blank">Ver no GitHub</a></p>
     ${projeto.Live ? `<p><a href="${projeto.Live}" target="_blank">Ver ao vivo</a></p>` : ""}
 
-    ${prints.length ? `
+    ${adjustedPrints.length ? `
       <div class="carousel">
         <button class="prev">❮</button>
         <div class="carousel-track">
-          ${prints.map(src => `<img src="${src}" class="carousel-img" alt="print do projeto">`).join("")}
+          ${adjustedPrints.map(src => `<img src="${src}" class="carousel-img" alt="print do projeto">`).join("")}
         </div>
         <button class="next">❯</button>
         <div class="carousel-thumbs">
-          ${prints.map((src, i) => `
+          ${adjustedPrints.map((src, i) => `
             <img src="${src}" class="thumb ${i === 0 ? 'active' : ''}" data-index="${i}">
           `).join("")}
         </div>
