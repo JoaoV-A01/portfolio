@@ -27,16 +27,20 @@ async function carregarDados() {
   `;
   document.getElementById("experiencias").innerHTML = experiencias;
 
+  const basePath = window.location.hostname.includes("github.io")
+  ? "./img/PIs/"
+  : "../img/PIs/";
   const cardsContainer = document.getElementById("cards-container");
   Object.values(projetos.PIs).forEach((pi, index) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <img src="${pi.Prints["1"] || "img/default.png"}" alt="${pi.Nome}">
-      <h3>${pi.Nome}</h3>
-      <p>${pi.Descrição.substring(0, 100)}...</p>
-      <a href="projeto.html?id=pi${index + 1}" class="btn">Ver detalhes</a>
-    `;
+  const imgPath = pi.Prints["1"] ? pi.Prints["1"].split("/").pop() : "default.png";
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <img src="${basePath}${imgPath}" alt="${pi.Nome}">
+    <h3>${pi.Nome}</h3>
+    <p>${pi.Descrição.substring(0, 100)}...</p>
+    <a href="projeto.html?id=pi${index + 1}" class="btn">Ver detalhes</a>
+  `;
     cardsContainer.appendChild(card);
   });
 
