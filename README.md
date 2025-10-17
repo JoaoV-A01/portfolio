@@ -41,7 +41,7 @@ Este projeto foi desenvolvido para apresentar meus **projetos**, **certificaçõ
 
 ## 🔗 Acesse o Portfólio
 
-➡️ **GitHub Pages:** [https://joaov-a01.github.io/portfolio]
+➡️ **GitHub Pages:** [Link](https://joaov-a01.github.io/portfolio)
 
 ---
 
